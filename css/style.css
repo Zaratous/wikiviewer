@@ -1,0 +1,50 @@
+html{
+	width: 400px;
+}
+
+body{
+  background-color: black;
+}
+
+input[type=text]:focus {
+	outline:0;
+    box-shadow:0 0 3pt 2pt #676768;
+}
+
+input#searchTerm {
+  border-radius:20px;
+}
+a{/*no link underline*/
+  text-decoration: none !important
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+  color:#959393;
+}
+
+.articleLink{
+	display: flex;
+    justify-content: center;
+	overflow:auto;
+}
+
+.articles{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.articles a{
+  color:black;
+}
+
+.articles a:hover{
+  color:white;
+}
+.well:hover {
+    background: #262626;
+}
